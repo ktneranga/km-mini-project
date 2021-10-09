@@ -135,74 +135,16 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Customers</h1>
+                        <h1 class="mt-4">Purchase Invoice: IBMC (Muthu Akuru) Publishers / 20210608-1</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active">orders</li>
+                            <li class="breadcrumb-item active">Purchase Onvoices</li>
                         </ol>
-                        <!-- <div class="row">
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card bg-primary text-white mb-4">
-                                    <div class="card-body">Primary Card</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card bg-warning text-white mb-4">
-                                    <div class="card-body">Warning Card</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card bg-success text-white mb-4">
-                                    <div class="card-body">Success Card</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card bg-danger text-white mb-4">
-                                    <div class="card-body">Danger Card</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- <div class="row">
-                            <div class="col-xl-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-area me-1"></i>
-                                        Area Chart Example
-                                    </div>
-                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-bar me-1"></i>
-                                        Bar Chart Example
-                                    </div>
-                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="card mb-4">
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <i class="fas fa-table me-1"></i>
-                                        Customers Table
+                                        Product Table
                                     </div>
                                     <div class="col-md-6">
                                         <button class="btn btn-primary btn-sm float-right" style="float: right;">Create</button>
@@ -211,185 +153,198 @@
                                 
                             </div>
                             <div class="card-body">
-                                <table id="datatablesSimple">
+                                <table class="table table-striped">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Phone</th>
-                                            <th>Email</th>
-                                            <th>Action</th>
+                                            <th>Product Variant</th>
+                                            <th>SKU</th>
+                                            <th>Buying Price</th>
+                                            <th>Quantity</th>
+                                            <th>Line Price</th>
                                             <!-- <th>Start date</th>
                                             <th>Salary</th> -->
                                         </tr>
                                     </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Phone</th>
-                                            <th>Email</th>
-                                            <th>Action</th>
-                                            <!-- <th>Start date</th>
-                                            <th>Salary</th> -->
-                                        </tr>
-                                    </tfoot>
                                     <tbody>
                                         <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>071 21 323 43</td>
-                                            <td>teran@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>1 ශ්‍රේණිය මුතු අකුරු (1 කොටස) - පෙර ලිවීමේ කුසලතා</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Garrett Winters</td>
-                                            <td>071 21 323 43</td>
-                                            <td>neranga@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>1 ශ්‍රේණිය මුතු අකුරු (2 කොටස) - අකුරු ලිවීමේ කුසලතා</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Ashton Cox</td>
-                                            <td>071 21 212 12</td>
-                                            <td>sandaru@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>1 ශ්‍රේණිය මුතු අකුරු (3 කොටස) - වචන ලිවීමේ කුසලතා</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Cedric Kelly</td>
-                                            <td>071 21 323 43</td>
-                                            <td>lakshan@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>1 ශ්‍රේණිය මුතු අකුරු (4 කොටස) - සරල වැකි ලිවීමේ කුසලතා</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Airi Satou</td>
-                                            <td>071 21 212 12</td>
-                                            <td>hansi@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>1 ශ්‍රේණිය - සරල වැකි</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Brielle Williamson</td>
-                                            <td>071 21 323 43</td>
-                                            <td>oshani@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>1 ශ්‍රේණිය - රූප බලා අකුරු කියමු</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Herrod Chandler</td>
-                                            <td>071 21 323 43</td>
-                                            <td>ajith@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>1 ශ්‍රේණිය - පෙර ලිවීමේ කුසලතා (A5)</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Rhona Davidson</td>
-                                            <td>071 21 212 12</td>
-                                            <td>charith@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>1 ශ්‍රේණිය - අකුරු ලිවීමේ කුසලතා (A5)</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Colleen Hurst</td>
-                                            <td>071 21 323 43</td>
-                                            <td>Colleen@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>2 ශ්‍රේණිය මුතු අකුරු (1 කොටස) - අකුරු ලිවීමේ කුසලතා</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Sonya Frost</td>
-                                            <td>071 21 212 12</td>
-                                            <td>Sonya@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>2 ශ්‍රේණිය මුතු අකුරු (2 කොටස) - පිලි සහ සරල වැකි ලිවීමේ කුසලතා</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Jena Gaines</td>
-                                            <td>071 21 323 43</td>
-                                            <td>Jena@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>2 ශ්‍රේණිය මුතු අකුරු (3 කොටස) - භාශා කුසලතා</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Quinn Flynn</td>
-                                            <td>071 21 212 12</td>
-                                            <td>Quinn@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>2 ශ්‍රේණිය - රූප බලා අකුරු කියමු</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Charde Marshall</td>
-                                            <td>071 21 323 43</td>
-                                            <td>Charde@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>3 ශ්‍රේණිය - මුතු අකුරු (1 කොටස)</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Haley Kennedy</td>
-                                            <td>071 90 989 87</td>
-                                            <td>Haley@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>3 ශ්‍රේණිය - මුතු අකුරු (2 කොටස)</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Tatyana Fitzpatrick</td>
-                                            <td>071 78 878 98</td>
-                                            <td>Tatyana@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>3 ශ්‍රේණිය මුතු අකුරු (3 කොටස) - භාශා කුසලතා</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
                                         <tr>
-                                            <td>Michael Silva</td>
-                                            <td>071 21 323 43</td>
-                                            <td>Michael@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
+                                            <td>3 ශ්‍රේණිය - බලා ලියන පොත</td>
+                                            <td>2021-06-08</td>
+                                            <td><input type="text"class="form-control" value="100"></td>
+                                            <td><input type="text" class="form-control" value="45"></td>
+                                            <td>4500.00</td>
                                             <!-- <td>2011/04/25</td>
                                             <td>$320,800</td> -->
                                         </tr>
+
                                         <tr>
-                                            <td>Paul Byrd</td>
-                                            <td>071 89 789 98</td>
-                                            <td>Paul@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
-                                            <!-- <td>2011/04/25</td>
-                                            <td>$320,800</td> -->
-                                        </tr>
-                                        <tr>
-                                            <td>Gloria Little</td>
-                                            <td>071 65 656 76</td>
-                                            <td>Gloria@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
-                                            <!-- <td>2011/04/25</td>
-                                            <td>$320,800</td> -->
-                                        </tr>
-                                        <tr>
-                                            <td>Bradley Greer</td>
-                                            <td>071 43 343 43</td>
-                                            <td>Bradley@gmail.com</td>
-                                            <td class="text-center"><a href="edit-customer.html"><i class="fas fa-pencil-alt"></i></a></td>
-                                            <!-- <td>2011/04/25</td>
-                                            <td>$320,800</td> -->
+                                            <td colspan="3"><b>Total</b></td>
+                                            <td><b>450,000</b></td>
+                                            <td>-</td>
                                         </tr>
                                         
                                     </tbody>
                                 </table>
                             </div>
                             
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <h4>Payment</h4>
+                            </div>
+                        </div>
+    
+                        <div class="row mb-4">
+                            <div class="col-md-5">
+                                <label for="" class="">Payment Method</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="1">Bank Deposit</option>
+                                    <option value="1">Cash</option>
+                                    <option value="1">Online Payment</option>
+                                    <option value="1">Cash On Delivery</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5">
+                                <label for="">Amount</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-primary mt-4">Add Payment</button>
+                            </div>
                         </div>
                     </div>
                 </main>
